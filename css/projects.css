@@ -1,0 +1,166 @@
+.projectsBlock{
+  position: relative;
+  background-color: #F3F3F3;
+  top: 0px;
+  width: 100%;
+  height:100%;
+  margin-bottom: 1px;
+
+}
+
+
+.projectWord{
+  position: absolute;
+  font-size: 22px;
+  width: 140px;
+  height: 30px;
+  padding: 5px;
+  top:-40px;
+  background-color: #F3F3F3;
+  border-radius: 5px 5px 0px 0px;
+  text-align: center;
+}
+
+.addProject{
+  position: absolute;
+  font-size: 28px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  top:-40px;
+  left: 160px;
+  background-color: #FFF3F3;
+  border-radius: 25px 25px 0 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: flex-start;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+
+.project{
+  width:100%;
+  background-color: #eee;
+}
+
+.projectName,
+.addTaskInProject,
+.openProjectTasks,
+.deleteProject{
+  float: left;
+  background-color: #d5d3ff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 25px;
+  cursor: pointer;
+  border-bottom: 2px solid #cac9e0;
+}
+
+.projectName{
+  font-size: 20px;
+  width: 70%;
+}
+
+.addTaskInProject{
+  font-size: 30px;
+  width: 10%;
+  background-color: #b9b5fb;
+}
+
+.deleteProject{
+  font-size: 25px;
+  width: 10%;
+  background-color: #b9b5fb;
+}
+
+.openProjectTasks{
+  font-size: 20px;
+  width: 10%;
+  /*transform: scale(1.02, -1);*/
+}
+
+.projectTask{
+  min-width: 100%;
+}
+
+.projectTaskName,
+.projectTaskCost,
+.projectTaskStatus,
+.deleteProjectTask,
+.addTaskInPlan,
+.projectTaskDate{
+  display: inline-block;
+  background-color: #CEFECE;
+  padding-top: 10px;
+  margin-right: -5px;
+  height: 25px;
+  margin-bottom: 0px;
+  border-bottom: 5px solid #CEEECE;
+
+}
+
+.projectTaskDate{
+  font-size: 17px;
+  width: 20%;
+  text-align: center;
+}
+
+.projectTaskName{
+  box-sizing: border-box;
+  padding-left: 30px;
+  font-size: 17px;
+  width: 55%;
+  height: 40px;
+}
+.projectTaskCost{
+  font-size: 17px;
+  width: 5%;
+  text-align: center;
+}
+
+.projectTaskCost.costA{
+  background-color: #fdda3c;
+  border-bottom-color:#e8b347;
+}
+
+.projectTaskCost.costB{
+  background-color: #90e463;
+  border-bottom-color: #68c15a;
+}
+.projectTaskCost.costC{
+  background-color: #44f3a0;
+  border-bottom-color: #48af7e;
+}
+.projectTaskCost.costD{
+  background-color: #3caffd;
+  border-bottom-color: #488bb9;
+}
+
+
+.projectTaskStatus{
+  font-size: 17px;
+  width: 5%;
+  text-align: center;
+}
+.deleteProjectTask{
+  font-size: 17px;
+  width: 5%;
+  text-align: center;
+  border-right: 1px solid #CEEECE ;
+  border-left: 1px solid #CEEECE ;
+}
+
+.addTaskInPlan{
+  font-size: 17px;
+  width: 10%;
+  text-align: center;
+}

@@ -1,0 +1,57 @@
+:root{
+
+}
+
+.levelBlock{
+  min-width: 300px;
+  height: 170px;
+  background-color: var(--info-component-color);
+  border-radius: 5px;
+  margin: var(--info-component-margin);
+  padding: var(--info-component-padding);
+}
+
+.levelBlock{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  align-items:flex-start;
+  flex-wrap: wrap;
+
+}
+
+.level{
+  font-size: 22px;
+  align-self: center;
+}
+
+.point{
+  font-size: 22px;
+}
+
+
+li.circle{
+  list-style-image: url(img/circle.png);
+}
+
+li.square{
+  list-style-image: url(img/square.png);
+}
+
+li.triangle{
+  list-style-image: url(img/triangle.png);
+}
+
+li.star{
+  list-style-image: url(img/star.png);
+}
+
+.points{
+  background-color: #fdf;
+  font-size: 40px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 40px;
+
+}

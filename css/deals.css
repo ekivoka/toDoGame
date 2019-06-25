@@ -1,0 +1,8 @@
+.dealsBlock{
+  width: 50vw;
+  min-width: 500px;
+  height: 80%;
+  background-color: var(--bg-info-color);;
+  border-radius: 0px 5px 5px 0px;
+  margin: 50px 5px 0px 0px;
+}

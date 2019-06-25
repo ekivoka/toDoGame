@@ -1,0 +1,155 @@
+.planBlock{
+  position: relative;
+  width: 50vw;
+  min-width: 500px;
+  height: 80%;
+  background-color: var(--bg-info-color);
+  border-radius: 5px 0px 0px 5px;
+  margin: 50px 0px 0px 5px;
+}
+
+.planProjects{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  overflow-y: scroll;
+  height: 100%;
+
+}
+
+.planProject{
+  position: relative;
+  width: 170px;
+  height: 100px;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 
+}
+
+.planProjectName{
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #eee;
+  height: 20px;
+  border-radius: 15px 15px 0 0;
+  padding: 10px;
+  border-bottom: 4px solid blue;
+  text-overflow: ellipsis;
+}
+
+.planWord{
+  position: absolute;
+  font-size: 22px;
+  width: 140px;
+  height: 30px;
+  padding: 5px;
+  top:-40px;
+  background-color: var(--bg-info-color);
+  border-radius: 5px 0px 0px 0px;
+  text-align: center;
+}
+
+.planDateBlock{
+  position: absolute;
+  font-size: 22px;
+  width: 210px;
+  height: 30px;
+  padding: 5px;
+  top:-40px;
+  left: 140px;
+  background-color: var(--bg-info-color);
+  border-radius: 0px 5px 0px 0px;
+  text-align: center;
+  
+}
+
+.planDate{
+  display: inline;
+  float:left;
+  cursor: pointer;
+  background-color: #eee;
+  padding: 0 15px 0 15px;
+}
+
+.planDatePrev,
+.planDateNext{
+  float:left;
+  display: inline;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 0 15px 0 15px;
+  border-radius: 5px;
+}
+
+
+.planBar{
+  position: relative;
+  width: 90%;
+  min-width: 200px;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 15px;
+  border: 3px solid #bbb;
+  overflow: hidden;
+}
+
+.planBarProgress{
+  position: absolute;
+  width: 40%;
+  height: 20px;
+  background-color: #44EE99;
+}
+
+.planProject.costA > div.planProjectName{
+  border-bottom-color: #e8b347;
+}
+
+.planProject.costB > div.planProjectName{
+  border-bottom-color: #68c15a;
+}
+
+.planProject.costC > div.planProjectName{
+  border-bottom-color:  #44f3a0;
+}
+
+.planProject.costD > div.planProjectName{
+  border-bottom-color: #3caffd;
+}
+
+.planProjectTaskName{
+  padding: 10px;
+}
+
+.deleteProjectTaskFromPlan{
+  visibility: hidden;
+  position: absolute;
+  top: 10px;
+  left: 155px;
+  padding: 5px 10px;
+  background-color: violet;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+.makeTask{
+  visibility: hidden;
+  position: absolute;
+  top: 50px;
+  left: 155px;
+  padding: 5px 10px;
+  background-color: #33AA99;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.planProject:hover > .makeTask,
+.planProject:hover > .deleteProjectTaskFromPlan{
+  visibility: visible;
+}
+
+

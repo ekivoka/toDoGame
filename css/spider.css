@@ -1,0 +1,110 @@
+.spider{
+  position: relative;
+  width: 50px;
+  height: 50px;
+
+}
+
+.spiderHead{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #442044;
+  border-radius: 25px;
+}
+
+.spiderLeftLeg{
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 10px;
+  background-color: #442044;
+  border-radius: 25px;
+}
+
+.spiderRightLeg{
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 10px;
+  background-color: #442044;
+  border-radius: 25px;
+}
+
+.spiderLeftLeg1{
+  top: -3px;
+  left: -5px;
+  transform: rotate(45deg);
+}
+
+.spiderRightLeg1{
+  top: -3px;
+  left: 35px;
+  transform: rotate(-45deg);
+}
+
+.spiderLeftLeg2{
+  top: 10px;
+  left: -12px;
+  transform: rotate(20deg);
+}
+
+.spiderRightLeg2{
+  top: 10px;
+  left: 43px;
+  transform: rotate(-20deg);
+}
+
+.spiderLeftLeg3{
+  top: 26px;
+  left: -13px;
+  transform: rotate(-5deg);
+}
+
+.spiderRightLeg3{
+  top: 26px;
+  left: 43px;
+  transform: rotate(5deg);
+}
+
+.spiderLeftLeg4{
+  top: 40px;
+  left: -5px;
+  transform: rotate(-30deg);
+}
+
+.spiderRightLeg4{
+  top: 40px;
+  left: 35px;
+  transform: rotate(30deg);
+}
+
+.spiderEye1{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 5px;
+  top: 15px;
+  left: 10px;
+}
+
+.spiderEye2{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 5px;
+  top: 15px;
+  left: 30px;
+}
+
+.spiderPupil{
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: black;
+  border-radius: 5px;
+  top: 2px;
+  left: 2px;
+}

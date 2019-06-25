@@ -1,0 +1,82 @@
+
+.goalsBlock{
+  min-width: 400px;
+  height: 170px;
+  background-color: var(--info-component-color);
+  border-radius: 5px;
+  margin: var(--info-component-margin);
+  padding: var(--info-component-padding);
+}
+
+.goalsBlock{
+  display: flex;
+  flex-direction: column;
+  overflow-y:scroll;
+  overflow-x:none;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #EECCDE;
+  /*  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
+}
+
+.goalsWord{
+  font-size: 22px;
+  margin: 10px;
+}
+
+.goal{
+  margin-bottom: 4px;
+}
+.goalName,
+.goalCost,
+.payGoal,
+.deleteGoal{
+  display: inline-block;
+  padding: 5px;
+}
+
+.goalName{
+  border-radius: 30px;
+  background-color: inherit;
+}
+
+.goalCost{
+  border-radius: 30px 0px 0px 30px;
+  background-color: inherit;
+  width: 40px;
+}
+
+.payGoal{
+  border-radius: 0px 30px 30px 0px;
+  cursor: pointer;
+}
+
+.goal > .deleteGoal{
+  border-radius: 30px;
+  background-color: #FF30A0;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.blockPay > div{
+  background-color: #FFD0CA;
+}
+
+.enablePay > div{
+background-color: #ACD0CA;
+}
+
+.goal:hover{
+  color: white;
+}
